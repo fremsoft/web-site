@@ -3,4 +3,4 @@
 
 ## Organizzazione del repository:
 
-1. 001-part1-skeleton-html : creazione della struttura HTML di un sito partendo da zero
+__001-part1-skeleton-html__ : creazione della struttura HTML di un sito partendo da zero
