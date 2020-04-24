@@ -14,22 +14,17 @@
     </header>
     <nav>
       <ul>
-<?php if ($menu == "home") {  ?>       
-        <li><strong>Home</strong></li>
-<?php } else { ?>
-        <li><a href="index.php">Home</a></li>
-<?php } ?>
+<?php 
+/* MENU DINAMICO: In base al valore della variabile $menu, 
+   si selezina una voce o l'altra */
+if ($menu == "home") {  ?><li><strong>Home</strong></li><?php } 
+else { ?><li><a href="index.php">Home</a></li><?php } 
 
-<?php if ($menu == "storia") {  ?>       
-        <li><strong>Storia</strong></li>
-<?php } else { ?>
-        <li><a href="storia.php">Storia</a></li>
-<?php } ?>
-              
-<?php if ($menu == "prodotto") {  ?>       
-        <li><strong>Prodotto</strong></li>
-<?php } else { ?>
-        <li><a href="prodotto.php">Prodotto</a></li>
-<?php } ?>
+if ($menu == "storia") { ?><li><strong>Storia</strong></li><?php } 
+else { ?><li><a href="storia.php">Storia</a></li><?php } 
+
+if ($menu == "prodotto") { ?><li><strong>Prodotto</strong></li><?php } 
+else { ?><li><a href="prodotto.php">Prodotto</a></li><?php } 
+?>
       </ul> 
     </nav>
