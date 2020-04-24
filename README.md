@@ -7,3 +7,6 @@
 
 [__002-part2-simple-css__](http://htmlpreview.github.io/?https://raw.githubusercontent.com/fremsoft/web-site/master/002-part2-simple-css/index.html)
  : progettazione della grafica sulla base di un modello in PDF di [Samantha Spadoni](https://www.linkedin.com/in/samanthaspadoni/) - vedi il sorgente nella directory [/src/](./002-part2-simple-css/src/) - impostando tutti gli elementi grafici nel file [style.css](./002-part2-simple-css/css/style.css), eseguito in diretta [Facebook](https://www.facebook.com/fremsoft/videos/10158152544319609/)
+
+[__003-part3-simple-php__](http://htmlpreview.github.io/?https://raw.githubusercontent.com/fremsoft/web-site/master/003-part3-simple-php/index.php)
+ : conversione di un sito statico in sito dinamico, da HTML a PHP, eseguita in diretta [Facebook](https://www.facebook.com/fremsoft/videos/10158179695474609/) e in replica su [Youtube](https://youtu.be/uA6fIRPYPUc)
