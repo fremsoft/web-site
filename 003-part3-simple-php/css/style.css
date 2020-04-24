@@ -1,0 +1,122 @@
+/* RESET DEI MARGINI E DEL BOX-MODEL */
+*, *:before, *:after {
+  margin: 0; 
+  padding: 0; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* PAGINA */
+body {    
+  background: url('../images/sfondo.png') no-repeat center top;
+  position: relative;
+}
+
+/* INTESTAZIONE */
+header {    
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255, 0.75);
+
+  top: 160px;
+  right: calc(50% - 550px);
+  width: 500px;
+  
+  font-family: Helvetica, Sans-Serif;
+  color: #333;
+  font-size: 18px;
+  padding: 0;    
+}
+
+header h1 {
+  font-size:32px;
+  margin: 30px 60px;
+}
+
+header h2 {
+  font-size:24px;
+  margin: 30px 60px;
+}
+
+/* BARRA DI NAVIGAZIONE: MENU */
+nav {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: calc(50% - 450px);
+  font-family: Helvetica, Sans-Serif;
+  color: #ffffff;
+  font-size: 18px;    
+}
+
+nav ul, nav ul li, nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+
+nav ul li strong {
+  color: #0d56bb;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* CORPO DELLA PAGINA */
+section {
+  display: block;
+  position: absolute;
+
+  top: 550px;
+  left: 10%;
+  width: 80%;
+  
+  font-family: Helvetica, Sans-Serif;
+    
+    
+  color: #000;
+  font-size: 18px;    
+}
+
+section h3, section p { 
+  margin: 10px;
+}
+
+section a {
+  text-decoration: none;
+  color: #0d56bb;
+}
+
+section img { 
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+/* FOOTER (PIE DI PAGINA) */
+footer {
+  display: block;
+  position: absolute;
+  background: #313332;
+
+  top: 800px;
+  left: 0;
+  width: 100%;
+
+  font-family: Helvetica, Sans-Serif;
+  color: #ffffff;
+  font-size: 18px;
+  
+  text-align: center;
+  padding: 40px;
+}
+@media (min-width: 1080px) {
+  footer {
+    
+    left: calc(50% - 540px);
+    width: 1080px;
+  }
+}
