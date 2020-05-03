@@ -9,4 +9,7 @@
  : progettazione della grafica sulla base di un modello in PDF di [Samantha Spadoni](https://www.linkedin.com/in/samanthaspadoni/) - vedi il sorgente nella directory [/src/](./002-part2-simple-css/src/) - impostando tutti gli elementi grafici nel file [style.css](./002-part2-simple-css/css/style.css), eseguito in diretta [Facebook](https://www.facebook.com/fremsoft/videos/10158152544319609/) e in replica su [Youtube](https://youtu.be/uA6fIRPYPUc)
 
 [__003-part3-simple-php__](https://github.com/fremsoft/web-site/tree/master/003-part3-simple-php)
- : conversione di un sito statico in sito dinamico, da HTML a PHP, eseguita in diretta [Facebook](https://www.facebook.com/fremsoft/videos/10158179695474609/) 
+ : conversione di un sito statico in sito dinamico, da HTML a PHP, eseguita in diretta [Facebook](https://www.facebook.com/fremsoft/videos/10158179695474609/) e in replica su [Youtube](https://youtu.be/JwjO1emwXr8)
+
+[__004-part4-wordpress-custom-theme__](https://github.com/fremsoft/web-site/tree/master/004-part4-wordpress-custom-theme)
+ : conversione di un sito statico in tema Wordpress, da HTML a PHP specifico per Wordpress, eseguita in diretta [Facebook](https://www.facebook.com/fremsoft/videos/10158206109199609/) e in replica su [Youtube](https://youtu.be/YLFDzUQrnjg) 
